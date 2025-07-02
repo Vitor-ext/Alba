@@ -4,6 +4,7 @@ import QuemSomos from '@/app/components/QuemSomos'
 import Servicos from '@/app/components/Servicos'
 import Avaliacoes from '@/app/components/Avaliacoes'
 import Footer from '@/app/components/Footer'
+import Contact from './components/Contacts'
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <QuemSomos />
       <Servicos />
       <Avaliacoes />
+      <Contact />  
       <Footer />
     </>
   )

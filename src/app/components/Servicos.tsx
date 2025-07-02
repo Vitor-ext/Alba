@@ -10,7 +10,7 @@ export default function Servicos() {
                 <h3 className="text-2xl font-bold mb-4 bg-gray-700 text-white px-4 py-2 rounded inline-block">
                   Projetos e Soluções de Máquinas
                 </h3>
-                <p className="text-blue-100 text-lg leading-relaxed">
+                <p className="text-blue-100 text-lg leading-relaxed py-15">
                   Desenvolvemos projetos customizados de máquinas industriais, combinando inovação e eficiência
                   para atender às demandas específicas de cada setor. Nossa expertise garante soluções
                   robustas e confiáveis.
@@ -26,12 +26,12 @@ export default function Servicos() {
             </div>
             
             <div className="relative top-10 left-0 w-full">
-                      <svg viewBox="0 0 1200 120" className="w-full h-20 fill-white">
-                        <path d="M0,60 C300,120 900,0 1200,60 L1200,120 L0,120 Z" />
-                      </svg>
-                    </div>
+                <svg viewBox="0 0 1200 120" className="w-full h-20 fill-gray-100">
+                  <path d="M0,60 C300,120 900,0 1200,60 L1200,120 L0,120 Z" />
+                </svg>
+            </div>
   
-            <div className="bg-gray-100 py-20 -mx-4 sm:-mx-6 lg:-mx-8 px-4 sm:px-6 lg:px-8">
+            <div className="bg-gray-100 py-30 px-4 sm:px-6 lg:px-8 w-full -mr-20">
               <div className="max-w-7xl mx-auto">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                   <div className="flex justify-center order-2 lg:order-1">
@@ -41,11 +41,11 @@ export default function Servicos() {
                       className="rounded-lg shadow-xl max-w-md w-full"
                     />
                   </div>
-                  <div className="order-1 lg:order-2">
+                  <div className="order-1 lg:order-2 ">
                     <h3 className="text-2xl font-bold mb-4 bg-gray-700 text-white px-4 py-2 rounded inline-block">
                       Retrofit em Equipamentos
                     </h3>
-                    <p className="text-gray-700 text-lg leading-relaxed">
+                    <p className="text-gray-700 text-lg leading-relaxed py-15">
                       Modernizamos equipamentos existentes com tecnologia avançada, proporcionando maior eficiência,
                       redução de custos e prolongamento da vida útil dos seus ativos industriais.
                     </p>
@@ -65,7 +65,7 @@ export default function Servicos() {
                 <h3 className="text-2xl font-bold mb-4 bg-gray-700 text-white px-4 py-2 rounded inline-block">
                   Manutenções Mecânicas
                 </h3>
-                <p className="text-blue-100 text-lg leading-relaxed">
+                <p className="text-blue-100 text-lg leading-relaxed py-15">
                   Oferecemos serviços completos de manutenção preventiva e corretiva, garantindo o funcionamento
                   otimizado de seus equipamentos e reduzindo paradas não programadas.
                 </p>
@@ -80,12 +80,28 @@ export default function Servicos() {
             </div>
   
             <div className="text-center mt-16">
-              <a href="#contato" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg text-lg font-semibold">
-                Tire a Dúvida Conosco
+              <a
+                href="/portifolio.pdf"
+                download
+                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg text-lg font-semibold inline-flex items-center gap-4"
+              >
+                Veja o nosso Portifólio                  
+                <img src="/download2.png" alt="Ícone de download" className="w-7 h-7" />
               </a>
             </div>
           </div>
         </div>
+        <div className="relative top-20 left-0 w-full">
+            <svg viewBox="0 0 1200 120" className="w-full h-20 fill-gray-100">
+                <path d="M0,60 C300,120 900,0 1200,60 L1200,120 L0,120 Z" />
+            </svg>
+        </div>
+
+        
       </section>
+
+
+
+
     )
   }

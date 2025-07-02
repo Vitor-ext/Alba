@@ -89,13 +89,13 @@ export default function Header() {
             ALBA
           </a>
           <a
-            href="https://wa.me/5599999999999"
+            href="https://wa.me/5511945481911"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center"
           >
             <img
-              src="/whatsapp-icon.png"
+              src="/whatsapp.png"
               alt="WhatsApp"
               className="h-6 w-6 mx-auto"
             />
