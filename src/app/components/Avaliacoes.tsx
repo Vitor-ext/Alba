@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: 'João Silva',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80',
-    text: 'Excelente trabalho da equipe A3A. Projeto executado com precisão e dentro do prazo estabelecido. Recomendo fortemente.'
+    text: 'Excelente trabalho da equipe da alba. Projeto executado com precisão e dentro do prazo estabelecido. Recomendo fortemente.'
   },
   {
     name: 'Maria Santos',
