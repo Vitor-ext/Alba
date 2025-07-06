@@ -63,7 +63,7 @@ export default function Servicos() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h3 className="text-2xl font-bold mb-4 bg-gray-700 text-white px-4 py-2 rounded inline-block">
-                  Manutenções Mecânicas
+                  Manutenção
                 </h3>
                 <p className="text-blue-100 text-lg leading-relaxed py-15">
                   Oferecemos serviços completos de manutenção preventiva e corretiva, garantindo o funcionamento
@@ -73,7 +73,7 @@ export default function Servicos() {
               <div className="flex justify-center">
                 <img 
                   src="/empresa.png" 
-                  alt="Manutenção mecânica" 
+                  alt="Manutenção" 
                   className="rounded-lg shadow-xl h-96 max-w-md w-full"
                 />
               </div>

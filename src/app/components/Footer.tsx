@@ -49,6 +49,9 @@ export default function Footer() {
               <li>Projetos de Máquinas</li>
               <li>Retrofit de Equipamentos</li>
               <li>Manutenção Mecânica</li>
+              <li>Manutenção Elétrica</li>
+              <li>Manutenção Hidráulica</li>
+              <li>Manutenção Pneumática</li>
               <li>Consultoria Industrial</li>
             </ul>
           </div>
