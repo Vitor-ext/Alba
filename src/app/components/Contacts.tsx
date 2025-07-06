@@ -14,7 +14,7 @@ const Contact = () => {
         {
         name: "Engº Gilberto Júnior",
         role: "Engenheiro",
-        email: "gilberto@albamanutenção.com.br", 
+        email: "Alba@albamanutenção.com.br", 
         phone: "(11) 94248 - 1911",
         image: "/logo.svg",
         initials: "GJ"
@@ -22,7 +22,7 @@ const Contact = () => {
         {
         name: "Engº Jacob Almeida", 
         role: "Engenheiro",
-        email: "jacob@albamanutenção.com.br",
+        email: "Alba@albamanutenção.com.br",
         phone: "(11) 98514 - 2002", 
         image: "/Jacob.png",
         initials: "JA"
